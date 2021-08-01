@@ -1,0 +1,16 @@
+.more_origen {
+    padding: 5px;
+   background-color: white;
+   margin-right: 10px;
+   color: white;
+   background-color: black;
+   /* border: 1px solid #FF811E; */
+   font-size: 12px;
+   border-style: solid;
+   border-width: 1px;
+   border-color: white;
+}
+
+.more_origen:hover {
+   background-color: #FF811E;
+}

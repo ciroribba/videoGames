@@ -1,0 +1,107 @@
+.contenedor_create {
+  width: 80%;
+  margin: 0 auto;
+  color: white;
+}
+
+.nav_form {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.btn_genero {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-weight: 400;
+  width: 150px;
+  margin: 5px;
+}
+
+.btn_genero:hover {
+  font-weight: 600;
+}
+
+.form_cont {
+  background-color: rgba(3, 3, 3, 0.829);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.i_d {
+  display: flex;
+  flex-direction: row;
+}
+
+.form_cont_i {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 30%;
+}
+
+.form_cont_d {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 70%;
+}
+
+.form_cont_d_e {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn_crear {
+  margin: 5px;
+  margin-bottom: -70px;
+  padding: 5px;
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.btn_crear:hover {
+  background-color: orange;
+}
+
+.exito {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 80vw;
+  color: white;
+  margin-top: 200px;
+}
+
+.mensaje{
+  color: orange;
+}
+
+.error{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around; 
+    align-items: center;
+    width: 100vw;
+    color: white;
+    margin-top: 100px;
+}
+
+.error > img {
+  width: 500px;
+}

@@ -1,0 +1,18 @@
+.orden {
+  width: 100%;
+  margin-top: 5px;
+}
+
+.more_text {
+  padding: 5px;
+  margin-right: 10px;
+  color: white;
+  background-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-color: white;
+}
+
+.more_text:hover {
+  background-color: #ff811e;
+}
