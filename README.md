@@ -131,6 +131,7 @@ Se debe desarrollar un servidor en Node/Express con las siguientes rutas:
 
 Algunas capturas de pantalla del proyecto:
 
+![imagenes](https://github.com/ciroribba/videoGames/blob/main/client/src/assets/demoVG.png)
 
 ❤ Espero disfrutes usarlo 😄
 
