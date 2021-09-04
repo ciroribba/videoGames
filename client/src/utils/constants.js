@@ -1,7 +1,13 @@
-export const VIDEOGAME_URL = "http://localhost:3001/videogames";
-export const VIDEOGAME_GENRES = "http://localhost:3001/genres";
-export const VIDEOGAME_NAME = "http://localhost:3001/videogames?name=";
-export const VIDEOGAME_ID = "http://localhost:3001/videogame/";
+// LOCAL VALUES
+// export const VIDEOGAME_URL = "http://localhost:3001/videogames";
+// export const VIDEOGAME_GENRES = "http://localhost:3001/genres";
+// export const VIDEOGAME_NAME = "http://localhost:3001/videogames?name=";
+// export const VIDEOGAME_ID = "http://localhost:3001/videogame/";
+
+export const VIDEOGAME_URL = "https://radiant-cove-59869.herokuapp.com/videogames";
+export const VIDEOGAME_GENRES = "https://radiant-cove-59869.herokuapp.com/genres";
+export const VIDEOGAME_NAME = "https://radiant-cove-59869.herokuapp.com/videogames?name=";
+export const VIDEOGAME_ID = "https://radiant-cove-59869.herokuapp.com/videogame/";
 
 export const plataformas = ["PC", "PlayStation", "Xbox", "Nintendo", "iOS", "Android", "macOS", "Linux", "PSP", 
 "Wii", "GameCube", "Game Boy", "SNES", "NES", "Apple", "Commodore", "Atari",  "SEGA"];
