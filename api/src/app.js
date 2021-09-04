@@ -11,7 +11,7 @@ require('./db.js');
 const server = express();
 
 server.use(cors({
-  origin: 'https://hungry-saha-dc43f8.netlify.app'
+  origin: 'http://hungry-saha-dc43f8.netlify.app'
 }));
 
 server.name = 'API';
