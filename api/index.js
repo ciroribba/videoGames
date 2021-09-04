@@ -24,7 +24,9 @@ const{ getAllGenresFromApi } = require('../api/src/controllers/genres')
 // Syncing all the models at once.
 conn.sync({ force: true }).then( async () => {
 
-  server.listen(3001, async () => {
+  const port = process.env.PORT || 3001;
+
+  server.listen(port, async () => {
     console.log('server listening at 3001'); // eslint-disable-line no-console
     
     const allGenres = await getAllGenresFromApi();	
